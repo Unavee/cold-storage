@@ -2,7 +2,6 @@ import SpotlightCard from "@/components/bits/SpotlightCard/SpotlightCard";
 import {
   SidebarInset,
   SidebarProvider,
-  SidebarTrigger,
 } from "@/components/ui/sidebar";
 import BoostCard from "@/components/cards";
 import roomsData from '../data/data';

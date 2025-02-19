@@ -69,7 +69,7 @@ const Heatmap: React.FC<HeatmapProps> = ({ rooms }) => {
       style: {
         fontSize: "14px",
       },
-      custom: ({ series, seriesIndex, dataPointIndex, w }) => {
+      custom: ({ seriesIndex, dataPointIndex, w }) => {
         const data = w.globals.initialSeries[seriesIndex].data[dataPointIndex];
         return `
           <div style="background:#1a1a1a; padding:8px 12px; border-radius:6px; color:#fff; font-size:14px; text-align:center;">
